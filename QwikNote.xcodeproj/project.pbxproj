@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EAA3D715A36F2100B68E6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EAA3D615A36F2100B68E6B /* UIKit.framework */; };
+		38EAA3D915A36F2100B68E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EAA3D815A36F2100B68E6B /* Foundation.framework */; };
+		38EAA3DB15A36F2100B68E6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EAA3DA15A36F2100B68E6B /* CoreGraphics.framework */; };
+		38EAA3E115A36F2100B68E6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA3DF15A36F2100B68E6B /* InfoPlist.strings */; };
+		38EAA3E315A36F2100B68E6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EAA3E215A36F2100B68E6B /* main.m */; };
+		38EAA3E715A36F2100B68E6B /* QwikNoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EAA3E615A36F2100B68E6B /* QwikNoteAppDelegate.m */; };
+		38EAA3EF15A36F9D00B68E6B /* Etch.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EAA3EE15A36F9D00B68E6B /* Etch.m */; };
+		38EAA3F215A379FE00B68E6B /* FrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EAA3F115A379FE00B68E6B /* FrameView.m */; };
+		38EAA3F415A3875300B68E6B /* Qn 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA3F315A3875300B68E6B /* Qn 57.png */; };
+		38EAA3F615A3875B00B68E6B /* Qn 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA3F515A3875B00B68E6B /* Qn 114.png */; };
+		38EAA3F815A3876300B68E6B /* Qn 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA3F715A3876300B68E6B /* Qn 72.png */; };
+		38EAA3FA15A3876B00B68E6B /* Qn 144.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA3F915A3876B00B68E6B /* Qn 144.png */; };
+		38EAA3FC15A387D700B68E6B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA3FB15A387D700B68E6B /* Default@2x.png */; };
+		38EAA3FE15A387DA00B68E6B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA3FD15A387DA00B68E6B /* Default.png */; };
+		38EAA40015A3883C00B68E6B /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA3FF15A3883C00B68E6B /* Default-Portrait@2x~ipad.png */; };
+		38EAA40215A3883F00B68E6B /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EAA40115A3883F00B68E6B /* Default-Portrait~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38EAA3D215A36F2100B68E6B /* QwikNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QwikNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EAA3D615A36F2100B68E6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38EAA3D815A36F2100B68E6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38EAA3DA15A36F2100B68E6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38EAA3DE15A36F2100B68E6B /* QwikNote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QwikNote-Info.plist"; sourceTree = "<group>"; };
+		38EAA3E015A36F2100B68E6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38EAA3E215A36F2100B68E6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38EAA3E415A36F2100B68E6B /* QwikNote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QwikNote-Prefix.pch"; sourceTree = "<group>"; };
+		38EAA3E515A36F2100B68E6B /* QwikNoteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QwikNoteAppDelegate.h; sourceTree = "<group>"; };
+		38EAA3E615A36F2100B68E6B /* QwikNoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QwikNoteAppDelegate.m; sourceTree = "<group>"; };
+		38EAA3ED15A36F9D00B68E6B /* Etch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Etch.h; sourceTree = "<group>"; };
+		38EAA3EE15A36F9D00B68E6B /* Etch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Etch.m; sourceTree = "<group>"; };
+		38EAA3F015A379FE00B68E6B /* FrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameView.h; sourceTree = "<group>"; };
+		38EAA3F115A379FE00B68E6B /* FrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameView.m; sourceTree = "<group>"; };
+		38EAA3F315A3875300B68E6B /* Qn 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Qn 57.png"; sourceTree = "<group>"; };
+		38EAA3F515A3875B00B68E6B /* Qn 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Qn 114.png"; sourceTree = "<group>"; };
+		38EAA3F715A3876300B68E6B /* Qn 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Qn 72.png"; sourceTree = "<group>"; };
+		38EAA3F915A3876B00B68E6B /* Qn 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Qn 144.png"; sourceTree = "<group>"; };
+		38EAA3FB15A387D700B68E6B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		38EAA3FD15A387DA00B68E6B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		38EAA3FF15A3883C00B68E6B /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		38EAA40115A3883F00B68E6B /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EAA3CF15A36F2100B68E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EAA3D715A36F2100B68E6B /* UIKit.framework in Frameworks */,
+				38EAA3D915A36F2100B68E6B /* Foundation.framework in Frameworks */,
+				38EAA3DB15A36F2100B68E6B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EAA3C715A36F2000B68E6B = {
+			isa = PBXGroup;
+			children = (
+				38EAA40115A3883F00B68E6B /* Default-Portrait~ipad.png */,
+				38EAA3FF15A3883C00B68E6B /* Default-Portrait@2x~ipad.png */,
+				38EAA3FD15A387DA00B68E6B /* Default.png */,
+				38EAA3FB15A387D700B68E6B /* Default@2x.png */,
+				38EAA3F915A3876B00B68E6B /* Qn 144.png */,
+				38EAA3F715A3876300B68E6B /* Qn 72.png */,
+				38EAA3F515A3875B00B68E6B /* Qn 114.png */,
+				38EAA3F315A3875300B68E6B /* Qn 57.png */,
+				38EAA3DC15A36F2100B68E6B /* QwikNote */,
+				38EAA3D515A36F2100B68E6B /* Frameworks */,
+				38EAA3D315A36F2100B68E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38EAA3D315A36F2100B68E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EAA3D215A36F2100B68E6B /* QwikNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EAA3D515A36F2100B68E6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38EAA3D615A36F2100B68E6B /* UIKit.framework */,
+				38EAA3D815A36F2100B68E6B /* Foundation.framework */,
+				38EAA3DA15A36F2100B68E6B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38EAA3DC15A36F2100B68E6B /* QwikNote */ = {
+			isa = PBXGroup;
+			children = (
+				38EAA3E515A36F2100B68E6B /* QwikNoteAppDelegate.h */,
+				38EAA3E615A36F2100B68E6B /* QwikNoteAppDelegate.m */,
+				38EAA3DD15A36F2100B68E6B /* Supporting Files */,
+				38EAA3ED15A36F9D00B68E6B /* Etch.h */,
+				38EAA3EE15A36F9D00B68E6B /* Etch.m */,
+				38EAA3F015A379FE00B68E6B /* FrameView.h */,
+				38EAA3F115A379FE00B68E6B /* FrameView.m */,
+			);
+			path = QwikNote;
+			sourceTree = "<group>";
+		};
+		38EAA3DD15A36F2100B68E6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38EAA3DE15A36F2100B68E6B /* QwikNote-Info.plist */,
+				38EAA3DF15A36F2100B68E6B /* InfoPlist.strings */,
+				38EAA3E215A36F2100B68E6B /* main.m */,
+				38EAA3E415A36F2100B68E6B /* QwikNote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EAA3D115A36F2100B68E6B /* QwikNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EAA3EA15A36F2100B68E6B /* Build configuration list for PBXNativeTarget "QwikNote" */;
+			buildPhases = (
+				38EAA3CE15A36F2100B68E6B /* Sources */,
+				38EAA3CF15A36F2100B68E6B /* Frameworks */,
+				38EAA3D015A36F2100B68E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QwikNote;
+			productName = QwikNote;
+			productReference = 38EAA3D215A36F2100B68E6B /* QwikNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EAA3C915A36F2100B68E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QwikNote;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 38EAA3CC15A36F2100B68E6B /* Build configuration list for PBXProject "QwikNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38EAA3C715A36F2000B68E6B;
+			productRefGroup = 38EAA3D315A36F2100B68E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EAA3D115A36F2100B68E6B /* QwikNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EAA3D015A36F2100B68E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EAA3E115A36F2100B68E6B /* InfoPlist.strings in Resources */,
+				38EAA3F415A3875300B68E6B /* Qn 57.png in Resources */,
+				38EAA3F615A3875B00B68E6B /* Qn 114.png in Resources */,
+				38EAA3F815A3876300B68E6B /* Qn 72.png in Resources */,
+				38EAA3FA15A3876B00B68E6B /* Qn 144.png in Resources */,
+				38EAA3FC15A387D700B68E6B /* Default@2x.png in Resources */,
+				38EAA3FE15A387DA00B68E6B /* Default.png in Resources */,
+				38EAA40015A3883C00B68E6B /* Default-Portrait@2x~ipad.png in Resources */,
+				38EAA40215A3883F00B68E6B /* Default-Portrait~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EAA3CE15A36F2100B68E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EAA3E315A36F2100B68E6B /* main.m in Sources */,
+				38EAA3E715A36F2100B68E6B /* QwikNoteAppDelegate.m in Sources */,
+				38EAA3EF15A36F9D00B68E6B /* Etch.m in Sources */,
+				38EAA3F215A379FE00B68E6B /* FrameView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38EAA3DF15A36F2100B68E6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EAA3E015A36F2100B68E6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EAA3E815A36F2100B68E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38EAA3E915A36F2100B68E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EAA3EB15A36F2100B68E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QwikNote/QwikNote-Prefix.pch";
+				INFOPLIST_FILE = "QwikNote/QwikNote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38EAA3EC15A36F2100B68E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QwikNote/QwikNote-Prefix.pch";
+				INFOPLIST_FILE = "QwikNote/QwikNote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EAA3CC15A36F2100B68E6B /* Build configuration list for PBXProject "QwikNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EAA3E815A36F2100B68E6B /* Debug */,
+				38EAA3E915A36F2100B68E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EAA3EA15A36F2100B68E6B /* Build configuration list for PBXNativeTarget "QwikNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EAA3EB15A36F2100B68E6B /* Debug */,
+				38EAA3EC15A36F2100B68E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EAA3C915A36F2100B68E6B /* Project object */;
+}
